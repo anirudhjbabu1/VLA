@@ -1,5 +1,14 @@
 # VLA
 # Visual Language Action Model
+# Under development
+
+This project is with reference to https://github.com/keivalya/mini-vla
+It helped me to get a better understanding of the field.
+
+Also Youtube video series by Ilia - https://youtu.be/8dZUOo5xWFw?si=KlFwSWtGUUlT2xPR
+
+I will be improving and developing sustom VLA models hardware agnostic. which can be deployed on any Unmanned vehicles.
+
 
 Designing VLA
 
