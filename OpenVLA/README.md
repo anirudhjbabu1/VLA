@@ -16,7 +16,7 @@ Experimental studies shows that OpenVLA outperforms RT-2-X(55B) despite having 7
 
 Code Walkthrough of OpenVLA
 
-!git clone https://github.com/openvla/openvla.git
+``` !git clone https://github.com/openvla/openvla.git
 %cd openvla
 !pip install -e .
  
@@ -24,7 +24,8 @@ Code Walkthrough of OpenVLA
 !ninja --version; echo $?  # Verify Ninja --> should return exit code "0"
  
 !pip install -r https://raw.githubusercontent.com/openvla/openvla/main/requirements-min.txt
-
+```
+```
 # Install minimal dependencies (`torch`, `transformers`, `timm`, `tokenizers`, ...)
 # > pip install -r https://raw.githubusercontent.com/openvla/openvla/main/requirements-min.txt
 from transformers import AutoModelForVision2Seq, AutoProcessor
@@ -52,3 +53,5 @@ action = vla.predict_action(**inputs, unnorm_key="bridge_orig", do_sample=False)
  
 # Execute...
 robot.act(action, ...)
+
+```
